@@ -1,0 +1,64 @@
+Instrucciones: 
+
+I.	Favor de contestar y enviar el resultado de spool y el código de las consultas en dos archivos separados.
+
+1.	Dame una descripción de la tabla freakymon.
+
+2.	Muéstrame todos los datos de la tabla gimnasio (formato profesional).
+
+3.	Mostrar el nombre del freackymon, su género, hp_maximo, cp, altura y peso. 
+
+4.	Mostrar el freakydex (freakymones encontrados) de un jugador en particular. Mostrar todos los atributos del freackydex.
+
+5.	Muestra el inventario de un jugador en particular (nombre del item, fecha en que lo obtuvo y la cantidad que obtuvo en ese momento). Incluye el Nombre del jugador.
+
+6.	Muestra los freakymones con el nombre del ataque y la cantidad de cada ataque.
+
+7.	Muestra pk del freakymon que más días ha estado en el Gimnasio defendiéndolo.
+
+8.	Mostrar los pokemones que todavía están defendiendo un Gimnasio (NULL).
+
+9.	Mostrar del freakydesk el nombre del pokemon y su evolución. Recuerden que tiene que haber pokemones que evolucionen una ves y que evolucionen dos veces. (Self-Join)
+
+10.	Haz un left outher Join entre el freackydex y el freackymon (usando solamente el pk)
+
+11.	Crea un CROSS JOIN entre el pk de freackymon y los ataques (pk) e incluye el nombre del ataque.
+
+12.	Muestra el pk, nombre, descripción y latitud y longitud de todas las paradas (freakystop) y de todos los gimnasios.  (todos juntos) (UNION)
+
+13.	Mostrar el nombre del jugador en Initcap y los nombres de los freakymones que ha capturado(freakydesk) en mayúsculas. (solamente indicar un jugador que tenga muchos freakymones)
+
+14.	Mostrar de cuantos caracteres se componen los nombres de los freakymones (no incluir repetidos) y organizar el resultado en orden descendente.
+
+15.	Calcular la cantidad de días que han transcurrido entre la fecha en la que se agarra un pokemon y la fecha actual del sistema (sysdate).
+
+16.	Calcula los meses transcurridos entre la fecha de creación de la cuenta del usuario y la fecha de nacimiento del jugador.
+
+17.	Añade 25 meses a la fecha de captura de los freakymones y muestrala, además incluye el nombre del frekymon.
+
+18.	Muestra la suma de CP de un tipo de freakymon (selecciona el que mas tenga de unmismo tipo, debe haber más de tres instancias).
+
+19.	Mostrar el promedio de CP por grupo de freakymones (ejemplo todos los picachus) Deben haber al menos 2 grupo de 6 freakymones del mismo tipo.
+
+20.	Cuenta cuantas instancias hay en la tabla jugador.
+
+21.	Muestra el nombre del freakymon que tiene el CP más alto.
+
+GROUP BY
+22.	Muestra el promedio de CP por tipo de frekymon. (freakydex y freakymon)
+
+23.	Muestra el total frekymone por categoria. (freakydex y freakymon)
+
+24.	Muestra el CP mayor por cada categoría que tenga el freakydex.
+
+25.	Muestra todos los freakymones de una sola categoría cuyo cp es mayor que el promedio de cp de ese mismo grupo.
+
+26.	Crea un View que tenga aquellos frekymones cuyo cp sea mayor del promedio general de todos.
+
+27.	Dar un SELECT * a ese view y ver que en efecto tienen un CP sobre el promedio.
+
+28.	Muestra una descripción de los user_views que tienes creados en la cuenta.
+
+29.	Ejecuta un enunciado similar, pero utilizando la claúsula SELECT.
+
+30.	Crea un reporte (SQLPLUS) que muestre el nombre del freakymon, su género, su cp, si tiene una estrella, su altura y su peso. Debe romper control por el tipo de freakymon. Debe mostrar totales por cada tipo de freakymon y un gran total al final. Cada pagina debe tener 30 líneas y usted determina el ancho de la línea que sea más apropiado. (TRABAJO PROFESIONAL) (10 pts)
